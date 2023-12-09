@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentListPokemon">
+
+    <fragment
+        android:id="@+id/fragmentListPokemon"
+        android:name="com.example.pokedex_xml.presenter.view.fragmentlistpokemon.FragmentListPokemon"
+        android:label="@string/fragment_list_pokemon_label_navigation"
+        tools:layout="@layout/fragment_list_pokemon">
+    </fragment>
+
+</navigation>
